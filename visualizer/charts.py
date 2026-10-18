@@ -1,5 +1,4 @@
 import os
-import pandas as pd
 import matplotlib.pyplot as plt 
 
 def generate_charts(combined_df):
@@ -60,7 +59,8 @@ def generate_charts(combined_df):
     linewidth=2,
     label="Maximum Rating"
     )
-   
+    plt.legend()  # without this, the "Maximum Rating" label is never shown
+
 
     plt.tight_layout()
     plt.savefig("output/avg_rating.png")

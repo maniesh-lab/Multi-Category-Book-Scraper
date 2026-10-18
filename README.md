@@ -8,7 +8,8 @@ and generates comparison charts automatically.
 
 ## Features
 
-- Scrapes title, price, and rating from multiple categories
+- Scrapes title, price, and rating from multiple categories, following pagination so every book in a category is collected (not just the first 20)
+- Polite, fault-tolerant requests — timeouts, HTTP error checks, a short delay between pages, and a failed category is skipped instead of crashing the run
 - Cleans and structures scraped datasets using pandas
 - Merges datasets into one unified CSV
 - Calculates average category statistics
@@ -21,7 +22,7 @@ and generates comparison charts automatically.
 - Mystery
 - Classics
 - Thriller
-- Philosophical
+- Philosophy
 
 ---
 
@@ -32,7 +33,7 @@ multi-source-book-scraper/
 │
 ├── scraper/
 │   ├── __init__.py
-│   └── books.py            # scrapes books from a given URL and category
+│   └── books.py            # scrapes every page of a category
 │
 ├── processors/
 │   ├── __init__.py
