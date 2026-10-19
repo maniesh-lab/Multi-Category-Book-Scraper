@@ -29,7 +29,7 @@ and generates comparison charts automatically.
 ## Project Structure
 
 ```
-Multi-Source-Book-Scraper/
+Multi-Category-Book-Scraper/
 │
 ├── scraper/
 │   ├── __init__.py
