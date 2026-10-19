@@ -100,7 +100,7 @@ Running the pipeline generates the following files in `output/`:
 
 ## Tech Stack
 
-- Python 3
+- Python
 - lxml
 - requests
 - BeautifulSoup4
