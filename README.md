@@ -1,4 +1,4 @@
-# Multi-Source Book Scraper
+# Multi-Category Book Scraper
 
 A Python pipeline that scrapes book data from multiple categories on 
 [books.toscrape.com](http://books.toscrape.com), merges the datasets, 

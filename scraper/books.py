@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; MultiSourceBookScraper/1.0)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; MultiCategoryBookScraper/1.0)"}
 RATING_MAP = {"One": 1, "Two": 2, "Three": 3, "Four": 4, "Five": 5}
 
 
