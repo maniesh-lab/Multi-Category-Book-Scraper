@@ -1,8 +1,9 @@
 # Multi-Category Book Scraper
 
-A Python pipeline that scrapes book data from multiple categories on 
-[books.toscrape.com](http://books.toscrape.com), merges the datasets, 
-and generates comparison charts automatically.
+A Python pipeline that scrapes every book (title, price, rating) from four 
+categories on [books.toscrape.com](https://books.toscrape.com), a site made for 
+practising scraping. It follows each category's pages to the end, merges 
+everything into one CSV, and charts the average price and rating per category.
 
 ---
 
