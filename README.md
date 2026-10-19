@@ -54,6 +54,7 @@ multi-source-book-scraper/
 ├── main.py                # pipeline entry point
 ├── output/                # generated at runtime (gitignored)
 ├── .gitignore
+├── LICENSE
 ├── requirements.txt
 └── README.md
 ```
